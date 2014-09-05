@@ -77,6 +77,7 @@ BOARD_USE_USB_MASS_STORAGE_SWITCH := true
 #Uses mksh for shell
 # TW_USE_TOOLBOX := true
 # Recovery
+TW_EXCLUDE_MTP := true
 TW_NO_REBOOT_BOOTLOADER := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_RECOVERY_INITRC := device/huawei/u8860/init.rc
